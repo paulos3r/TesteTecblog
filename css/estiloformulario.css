@@ -1,0 +1,30 @@
+fieldset{
+	margin: 1em 0;
+	padding: 1em;
+	border: 1px solid #ccc;
+	background: #f8f8f8;
+	right: 600px;
+}
+legend{
+	font-weight: bold;
+}
+label{
+	/*border: 1px solid red;*/
+	display: block;
+	cursor: pointer;/*cursor do mause mão*/
+
+}
+input{
+	width: 80%;
+
+}
+textarea{
+	width: 80%;
+	right: 40%;
+}
+input.radio, input.checkbox, input.submit {
+	width: auto;
+}
+.radio{
+	margin-right: 1em;
+}

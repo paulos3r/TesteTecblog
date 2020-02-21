@@ -1,0 +1,155 @@
+/*
+*
+formatação geral
+*
+*/
+
+a{
+        margin:0;
+        padding:0;
+}
+a{           
+        text-decoration:none;
+}
+a:link, a:visited{
+        color: #f7b600;
+}
+a:hover{
+        text-decoration: underline;
+}
+
+h1{
+        color: #4e4e4e;
+        font-size: 2.5em;
+}
+
+h2{
+        color: #f7b600;
+}
+
+h3{
+        /*border: 1px solid red;*/
+        color: #565656;
+        background: #ccc;
+        padding: 5px;
+}
+
+body{
+        font-size: 1em;
+        font-family: "Trebuchet MS", Helvetica, sans-serif;
+        background: #e6e6e6;
+}
+/*Alterações*/
+
+#menu-lateral a{
+        margin: 5px;
+        color:#000;
+        display: block;
+        width:200px;
+        right:20px;
+        text-indent: 40px;
+        line-height: 40px;
+        background: #f7b600 url(../img/menu.png) no-repeat left bottom;
+}
+#menu-lateral a:hover{
+        text-decoration: none;
+        background-position: right bottom;
+        background-color: #f99200;
+        color: #fff;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited{
+        color: #fff;
+        padding:8px 12px;
+}
+
+#area-cabecalho a:hover{
+        color:#f7b600;
+        background:#fff;
+        text-decoration:none;
+}
+        /*
+        ****Layot****
+        */
+#area-cabecalho{
+        /*border: 1px solid red;*/
+        width: 96%;
+        background: #f7b600;
+        padding:15px 0px 15px 15px;
+        text-align: center;
+        float:center;   
+}
+
+#area-logo, #area-menu{
+        padding:10px;
+}
+
+#area-principal{
+        /*border: 1px solid red;*/
+        width: 96%; /*920*/
+        margin: 0 auto;
+        padding: 15px 15px 15px 0px;
+        float:left;
+}
+
+#area-postagem{
+        /*border: 1px solid red;*/
+        width:70%; /*660px;*/
+        float:left;
+        /*padding: 15px 15px 15px 0px;*/
+}
+
+#area-lateral{
+        width: 27%;/*240px;*/
+        float: right;
+}
+
+#rodape{
+        /*border:1px solid red;*/
+        width: 96%;
+        clear: both;
+        padding: 1px;
+        background: #f7b600;
+        text-align:center;
+        padding: 3px 15px 3px 0px
+}
+        /*
+        ****Formatação em geral*****
+        */
+.branco{
+
+        color:white;
+
+}
+
+.postagem{
+        padding: 1px 20px;
+        margin-bottom: 20px;
+        background: white;
+}
+
+.data-postagem{
+
+        font-size:0.8em;
+        border-bottom: 1px solid #f4f4f4;
+        display: block;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+}
+
+.conteudo-lateral{
+        /*border: 1px solid red;*/
+        background: white;
+        padding:3px;
+        margin-bottom: 20px;
+}
+
+.texto-lateral{
+        font-size: 0.8em;
+        padding:5px;
+}
+.img-noticia img{
+        width: 96%;
+        padding: 2px;
+}
+
